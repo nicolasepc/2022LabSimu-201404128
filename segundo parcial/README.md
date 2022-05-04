@@ -2,7 +2,9 @@
 
 ## Problema 1
 Se realiza el experimento de ondas estacionarias con una cuerda. Obteniendo las siguientes mediciones
+
 Tensión (N +- 0.001N): 4.694, 1,264, 0.578, 0.284, 0.196
+
 Longitud de onda (m): 3, 1.5, 1, 0.75, 0.6
 
 Se solicita generar un programa el cual cumpla con las siguientes condiciones
@@ -12,14 +14,21 @@ Se solicita generar un programa el cual cumpla con las siguientes condiciones
 
 ### Metodología
 Para resolver este problema se utilizó el método numérico de mínimos cuadrados. Con este método se obtiene la recta que mejor se aproxima a los datos tabulados.
+
 La pendiente se calcula con la formula 
+```
 m = (n*sumaDeMultiplicaciones(x,y)-(suma(x)*suma(y)))/(n*sumaDeMultiplicaciones(x,x)-(suma(x)*suma(x)))
+```
 
 el intersecto se calcula con la formula:
-b =  (suma(y)-m*suma(x))/n
+```
+b = (suma(y)-m*suma(x))/n
+```
 
 y el coeficiente de determinación:
-    r = (n*sumaDeMultiplicaciones(x,y)-(suma(x)*suma(y)))/sqrt((n*sumaDeMultiplicaciones(x,x)-(suma(x)*suma(x)))*(n*sumaDeMultiplicaciones(y,y)-(suma(y)*suma(y))))
+```
+r = (n*sumaDeMultiplicaciones(x,y)-(suma(x)*suma(y)))/sqrt((n*sumaDeMultiplicaciones(x,x)-(suma(x)*suma(x)))*(n*sumaDeMultiplicaciones(y,y)-(suma(y)*suma(y))))
+```
 
 Mientras el cuadrado del coefiente de determinación se aproxime mas a 1, esto indica que nuestros datos más se aproximan a una recta.
 
@@ -50,7 +59,7 @@ r: Coeficiente de determinación
 longitud: Longitud de la onda cuando la tension es 6N.
 
 ### Diagrama de Flujo
-[Diagrama Problema 1](https://github.com/nicolasepc/201404128/blob/main/segundo%20parcial/parcial2problema1.png)
+[Diagrama Problema 1](https://github.com/nicolasepc/2022LabSimu-201404128/blob/main/segundo%20parcial/parcial2problema1.png)
 
 ## Problema 2
 Utilizando un método numérico, encuentre una raíz de la ecuacion: 
@@ -82,5 +91,9 @@ Aiteracion: número de iteraciones que realizó el programa para obtener la solu
 
 xS: Raíz de la función
 
+- String
+
+"Mensaje de error"
+
 ### Diagrama de Flujo
-[Diagrama Problema 1](https://github.com/nicolasepc/201404128/blob/main/segundo%20parcial/parcial2problema2.png)
+[Diagrama Problema 1](https://github.com/nicolasepc/2022LabSimu-201404128/blob/main/segundo%20parcial/parcial2problema2.png)
