@@ -3,7 +3,7 @@ Dentro de esta carpeta se documentara y mostrara el codigo de los problemas deja
 
 ## Problema 1
 ### Diagrama de flujo del problema:
-![Diagrama Problema 1](/2022LabSimu-201404128/Problemas_Programacion/Imagenes/1.JPG)
+![Diagrama Problema 1](/Problemas_Programacion/Imagenes/2.JPG)
 ### Variables de entrada:
 - i: numero de ingresos y es una variable de control
 - n: numero de numeros positivos (control)
@@ -18,7 +18,7 @@ $ ./problema1.out
 
 ## Problema 2
 ### Diagrama de flujo del problema:
-![Diagrama Problema 2](/2022LabSimu-201404128/Problemas_Programacion/Imagenes/2.JPG)
+![Diagrama Problema 2](/Problemas_Programacion/Imagenes/2.JPG)
 ### Variables de entrada y salida:
 - n: numero de numeros positivos (control)
 - x: valor del numero ingerado (variable de entrada)
@@ -34,7 +34,7 @@ $ ./problema2.out
 
 ## Problema 3
 ### Diagrama de flujo del problema:
-![Diagrama Problema 3](/2022LabSimu-201404128/Problemas_Programacion/Imagenes/3.JPG)
+![Diagrama Problema 3](/Problemas_Programacion/Imagenes/3.JPG)
 ### Variables de entrada y salida:
 - N: numero al que se le calculará la raíz cuadrada (entrada)
 - i: variable de control y necesaria para calcular la raiz(variable de control y salida)
@@ -47,7 +47,7 @@ $ ./problema3.out
 
 ## Problema 4
 ### Diagrama de flujo del problema:
-![Diagrama Problema 4](/2022LabSimu-201404128/Problemas_Programacion/Imagenes/4.JPG)
+![Diagrama Problema 4](/Problemas_Programacion/Imagenes/4.JPG)
 ### Variables de entrada y salida:
 - N: número ingresado por el usuario (entrada)
 - i: variable para iteraciones y que se utiliza para calcular el modulo (control)
@@ -61,7 +61,7 @@ $ ./problema4.out
 
 ## Problema 5
 ### Diagrama de flujo del problema:
-![Diagrama Problema 5](/2022LabSimu-201404128/Problemas_Programacion/Imagenes/5.JPG)
+![Diagrama Problema 5](/Problemas_Programacion/Imagenes/5.JPG)
 ### Variables de entrada y salida:
 - N1: variable para determinar desde donde inicia el rango para calcular los números primos (variable de entrada y de control)
 - N2: determina hasta donde termina el rango (variable de entrada y control)
